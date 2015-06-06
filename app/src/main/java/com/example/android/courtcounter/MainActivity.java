@@ -64,6 +64,12 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
         displayForTeamB(scoreTeamB);
     }
+    public void reset(View view){
+        scoreTeamA = 0;
+        scoreTeamB = 0;
+        displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
