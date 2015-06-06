@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
     /**
-     * Displays the given score for Team A.
+     * Displays the given score for Team A..
      */
     public void displayForTeamA(int score) {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
